@@ -34,7 +34,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
         Matrix.multiplyMM(vPMatrix, 0, projectionMatrix, 0, viewMatrix, 0);
 
         // Draw shape
-        mTriangle.draw(vPMatrix);
+        mSquare.draw(vPMatrix);
     }
 
     public void onSurfaceChanged(GL10 unused, int width, int height) {
